@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ntujobportal">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.Camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NTUJobPortal">
+        <activity android:name=".Screens.User.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name=".Screens.User.ChangeEmailActivity"></activity>
+        <activity android:name=".Screens.User.ResetPasswordActivity" />
+        <activity
+            android:name=".Screens.User.QRActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Screens.User.CalendarActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Screens.Admin.UserAccountsActivity" />
+        <activity android:name=".Screens.Admin.UpdateUserActivity" />
+        <activity
+            android:name=".Screens.SettingsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Screens.User.ProfileActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Screens.User.DashboardActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Screens.LoginActivity" />
+        <activity
+            android:name=".Screens.User.JobPostsActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Screens.Admin.RegistrationActivity" />
+        <activity android:name=".Screens.Admin.AdminActivity" />
+        <activity android:name=".Screens.Admin.InsertJobActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Screens.Preference" />
+    </application>
+
+</manifest>

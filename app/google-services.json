@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150224159751",
+    "project_id": "ntu-job-portal-50c9a",
+    "storage_bucket": "ntu-job-portal-50c9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150224159751:android:919fbe7d3bde926b9696a2",
+        "android_client_info": {
+          "package_name": "com.example.ntujobportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150224159751-avppevsajubohfrpj70lp5b4v88b11ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvVTZKTFNqtOmY3-dtz2nnSue06sbaVTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150224159751-avppevsajubohfrpj70lp5b4v88b11ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
